@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "dr_who",
+	"version": "${version}",
+	"name": "Dr Who",
+	"description": "fortnite",
+	"authors": [
+		"_twili, Bug1312"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dr_who/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"twili.dr_who.DrWho"
+		],
+		"fabric-datagen": [
+			"twili.dr_who.DrWhoDataGenerator"
+		]
+	},
+	"mixins": [
+		"dr_who.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
