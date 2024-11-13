@@ -5,7 +5,7 @@
 	"name": "Dr Who",
 	"description": "fortnite",
 	"authors": [
-		"_twili, Bug1312"
+		"_ranafangirl, Bug1312"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"twili.dr_who.DrWho"
+			"ranafangirl.dr_who.DrWho"
 		],
 		"fabric-datagen": [
-			"twili.dr_who.DrWhoDataGenerator"
+			"ranafangirl.dr_who.DrWhoDataGenerator"
 		]
 	},
 	"mixins": [

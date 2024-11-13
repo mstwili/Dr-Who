@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "twili.dr_who.mixin",
+	"package": "ranafangirl.dr_who.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"

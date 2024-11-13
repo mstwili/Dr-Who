@@ -1,4 +1,4 @@
-package twili.dr_who;
+package ranafangirl.dr_who;
 
 import net.fabricmc.api.ModInitializer;
 
